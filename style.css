@@ -2,6 +2,24 @@
     background-color: #D9ABA5;
 }
 
+.bg-main-color {
+    background-color: #FFFBF5;
+}
+
+.bg-card-color {
+    background-color: #F5E7E1;
+}
+
+.button-color {
+    background-color: #E3BFB9;
+}
+
+.button-color:hover {
+    background-color: #D9ABA5 !important;
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+
 .img-height {
     max-height: 500px;
 }
@@ -23,6 +41,11 @@
 .round-img {
     height: 250px;
     object-fit: cover;
+}
+
+.round-img:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
 }
 
 .logo-img{
