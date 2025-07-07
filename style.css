@@ -1,0 +1,31 @@
+.bg-color {
+    background-color: #D9ABA5;
+}
+
+.img-height {
+    max-height: 500px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    flex-grow: 1;
+}
+
+.round-img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.logo-img{
+    height: 50px;
+}
+
