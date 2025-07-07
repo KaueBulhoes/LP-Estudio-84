@@ -52,6 +52,14 @@
     height: 50px;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-family: 'Marcellus', serif;
+}
+
 @media (max-width: 768px) {
     .carousel-inner {
         max-height: 300px;
