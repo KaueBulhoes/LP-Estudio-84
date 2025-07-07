@@ -48,7 +48,52 @@
     transition: transform 0.2s ease-in-out;
 }
 
-.logo-img{
+.logo-img {
     height: 50px;
 }
 
+@media (max-width: 768px) {
+    .carousel-inner {
+        max-height: 300px;
+        overflow: hidden;
+    }
+
+    .carousel-inner img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #projects .d-flex {
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    #about .d-flex {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #about img {
+        width: 100%;
+        max-width: 400px;
+        align-self: center;
+    }
+
+    #images .d-flex {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .round-img {
+        width: 250px;
+        height: 250px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+}
